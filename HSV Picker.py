@@ -19,3 +19,4 @@ cv2.resizeWindow("imageHSV", 1200, 900)
 cv2.imshow("imageHSV",HSV)
 cv2.setMouseCallback("image",getpos)
 cv2.waitKey(0)#keep showing
+#bonjour 
