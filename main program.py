@@ -52,7 +52,7 @@ while True:
       print('Jevois fails')
       break
     #Above is to be used when we capture frames from Jevois
-    #frame = cv2.imread("gautier.png")         # This command is to be used when I load from existent photos;
+    #frame = cv2.imread("test.png")         # This command is to be used when I load from existent photos;
     red = detection.detect(frame, Upper_red, Lower_red, red_upper_size, red_lower_size, width_height_ratio,area_occupancy_ratio)
     blue = detection.detect(frame, Upper_blue, Lower_blue, blue_upper_size, blue_lower_size, width_height_ratio,area_occupancy_ratio)
     yellow = detection.detect(frame, Upper_yellow, Lower_yellow, yellow_upper_size, yellow_lower_size, width_height_ratio, area_occupancy_ratio)
